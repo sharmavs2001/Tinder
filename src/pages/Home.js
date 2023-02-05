@@ -5,7 +5,7 @@ const Home = () => {
     const authToken=false
     return (
         <div className="overlay">    
-        <Nav authToken={authToken}/>
+        <Nav minimal={false} authToken={authToken}/>
         <div className="home">
             <h1>Swipe Right®</h1>
             <button className="primary-button" onClick={handleClick}>
@@ -19,5 +19,5 @@ const Home = () => {
 export default Home
 
 function handleClick(){
-    
+
 }
